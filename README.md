@@ -1,9 +1,10 @@
 conkySABNZBD
 
-Created 24/09/2010 by blades <blades@gecko.org.uk>
+Intially created 24/09/2010 by blades <blades@gecko.org.uk>
+Updated 13/03/2018 by blades <blades@gecko.org.uk>
 
 Improved version of the sabnzbdcli code created by Sabooky 
-(http://forums.sabnzbd.org/index.php?topic=391.0)
+(https://forums.sabnzbd.org/viewtopic.php?f=6&t=391&p=1752&hilit=sabapi#p1752)
 Uses code from Kaivalagi's conkyForecast 
 (http://www.kaivalagi.com/blog/) for reading in a template 
 file and filling in the template, although it's been altered to suit the 
