@@ -1,8 +1,5 @@
 conkySABNZBD
 
-Intially created 24/09/2010 by blades <blades@gecko.org.uk>
-Updated 13/03/2018 by blades <blades@gecko.org.uk>
-
 Improved version of the sabnzbdcli code created by Sabooky 
 (https://forums.sabnzbd.org/viewtopic.php?f=6&t=391&p=1752&hilit=sabapi#p1752)
 Uses code from Kaivalagi's conkyForecast 
@@ -10,20 +7,17 @@ Uses code from Kaivalagi's conkyForecast
 file and filling in the template, although it's been altered to suit the 
 requirements of this project.
 
-This was put together in about a day to improve the sabnzbd cli 
-interface and associated conky code created by Sabooky.  The 
+This was initally put together in about a day to improve the sabnzbd cli 
+interface and associated conky code initially created by Sabooky.  The 
 improvements were required as SABNZBD has a new information interface 
 via the api provided by the server.  The output from the Sabooky 
 code was also limited to certain pieces of information, and the 
-configuration was performed by hacking the code manually.
+configuration was performed by hacking the code manually.  I also wanted
+to make it Python 3 compatible, too, as well as adding templating for the
+output, and to be able to make use of any of the returned information from
+the SABNZBD api query.
 
-I also wanted to add templating for the output, and to be able to make 
-use of any of the returned information from the SABNZBD api query.
 
-As such, the code was substantially rewritten (although the API code 
-created by Sabooky remains more or less intact - only the call to the 
-query api was changed to return the output from the api call, and to 
-handle errors elsewhere in the code).
 
 Usage: conkySABNZBD.py [options]
 
